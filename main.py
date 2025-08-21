@@ -23,7 +23,7 @@ def get_base64(file_path):
         return base64.b64encode(f.read()).decode()
 
 # Convert local image
-title_img = get_base64("images/B11R-cover-image.jpg")  # Change to your file path
+title_img = get_base64("B11R-cover-image.jpg")  # Change to your file path
 
 st.markdown(f"""
 <style>
@@ -140,3 +140,4 @@ st.write("📍 **Address:** KB-II/129 Barra-2 80 feet road, Kanpur Nagar, UP 208
 st.markdown("---")
 st.markdown("## Soma Tour & Travels")
 st.write("Buses available for long-distance travel, tourism/sightseeing, school or college trips, weddings or family functions, and corporate/office trips")
+
